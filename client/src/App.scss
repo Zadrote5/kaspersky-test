@@ -1,0 +1,21 @@
+// client/src/App.scss
+.app-container {
+  max-width: 90%;
+  //margin: 0 auto;
+
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #1890ff;
+  }
+
+  .ant-table {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .ant-input {
+    border-radius: 4px;
+  }
+}
