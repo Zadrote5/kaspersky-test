@@ -125,7 +125,7 @@ async def startup():
         password=os.getenv("DB_PASSWORD"),
         database=os.getenv("DB_NAME"),
         host=os.getenv("DB_HOST"),
-        port=5433,
+        port=5432,
         min_size=5,  # Минимальное количество соединений в пуле
         max_size=20  # Максимальное количество соединений
     )
