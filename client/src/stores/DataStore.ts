@@ -56,7 +56,7 @@ class DataStore {
             const {current, pageSize} = this.pagination;
             const offset = ((current || 1) - 1) * (pageSize || 1000);
 
-            const response = await fetch("http://backend:8008/data", {
+            const response = await fetch("http://0.0.0.0:8008/data", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
@@ -128,7 +128,7 @@ class DataStore {
         }
 
         try {
-            const response = await fetch("http://backend:8008/data", {
+            const response = await fetch("http://0.0.0.0:8008/data", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
